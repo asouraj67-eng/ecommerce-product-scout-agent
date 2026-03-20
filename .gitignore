@@ -1,0 +1,8 @@
+.secrets/
+.openclaw/
+output/
+reports/
+*.DS_Store
+__pycache__/
+*.pyc
+.env

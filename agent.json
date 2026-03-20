@@ -1,0 +1,24 @@
+{
+  "id": "ecommerce-product-scout",
+  "name": "海购选品助手",
+  "description": "跨境电商选品研究助手，支持 Amazon/TikTok Shop/eBay/Shopee 等平台。自动化数据采集、利润模型计算、六维评分体系，输出 Go/No-Go 选品决策报告。",
+  "model": "{YOUR_MODEL_ID}",
+  "os": [],
+  "skills": ["firecrawl-scraper"],
+  "tools": {
+    "allow": ["browser", "web-scraper", "xlsx", "exec", "web_fetch"]
+  },
+  "formData": {
+    "fields": [
+      {
+        "key": "firecrawl_api_key",
+        "label": "Firecrawl API Key",
+        "type": "password",
+        "required": false,
+        "placeholder": "fc-...",
+        "description": "用于网页抓取的 Firecrawl API Key。可在 https://www.firecrawl.dev 免费注册获取。不填写时 Agent 将使用平台浏览器工具采集数据。"
+      }
+    ],
+    "target": ".secrets/scout-config.json"
+  }
+}
