@@ -70,8 +70,6 @@
 /analyze Amazon US yoga mat --cost 8-12 --price 25-40 --top 50
 ```
 
----
 
-## Skill 说明
 
-`firecrawl-scraper` skill 来源于开源项目 [jezweb/claude-skills](https://github.com/jezweb/claude-skills)（MIT 协议），提供 Firecrawl API 的完整使用文档和代码模板。
+
